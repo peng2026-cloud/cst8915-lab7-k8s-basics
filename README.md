@@ -4,7 +4,7 @@
 |---|---|---|---|
 | Peng Wang | 041107730 | CST8915 Full-stack Cloud-native Development | Fall 2026 |
 
-🎥 [Watch Demo Video](VIDEO_LINK)
+🎥 [Watch Demo Video](https://www.youtube.com/watch?v=UYC-Bl_p_q8)
 
 ---
 
@@ -34,7 +34,7 @@ kubectl get services
 
 ### 1.4 Open the Store Front
 
-Open `http://<EXTERNAL-IP>` in the browser.
+Open `http://172.210.126.135` in the browser.
 
 ### 1.5 Place Two Orders
 
@@ -50,7 +50,7 @@ kubectl exec deployment/rabbitmq -- rabbitmqctl list_queues name durable message
 
 ### 1.7 Show the Queue in RabbitMQ
 
-Open `http://<EXTERNAL-IP>/rabbitmq/#/queues` and log in with the credentials from the YAML file. `order_queue` shows 2 ready messages.
+Open `http://172.210.126.135/rabbitmq/#/queues` and log in with the credentials from the YAML file. `order_queue` shows 2 ready messages.
 
 ### 1.8 Delete the RabbitMQ Pod
 
